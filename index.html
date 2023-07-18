@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function Handson</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <ol>
+      <li>
+        Create one function with zero parameter having a console statement;
+        <br /><br />
+        <pre>
+ function abc(){
+        console.log('Hey There!!!')
+        }</pre
+        >
+      </li>
+      <hr />
+
+      <li>
+        Create one function which takes two values as a parameter and print the
+        sum of them as "Sum of 3, 4 is 7" <br /><br />
+        <pre>
+function abc(a,b){
+        console.log(a + b)
+        }</pre
+        >
+      </li>
+      <hr />
+
+      <li>
+        Create one arrow function <br /><br />
+        <pre>
+var a = ()=>{
+        console.log('Hey!! Ayush This Side')
+            }
+        </pre>
+      </li>
+      <hr />
+
+      <li>
+        <strong>
+          <pre>"Print output: 
+            var x = 21;
+            var girl = function () {
+                console.log(x);
+                var x = 20;
+            };
+            girl ();"</pre>
+        </strong>
+        <p>The answer will be undefined due to following reasons :-
+            <ul>
+                <li>Firstly, we have not printed the variable we declared with the name "x" outside the function, it is right but it is not being printed by us.</li>
+                <li>Secondly, The variable we declared inside the function is declared after the printing statement, as js is synchronous language this function will give 'undefined'. If we declare the variable 'x' before the "console.log()" then function will print the value of 'x' which is 20. </li>
+            </ul>
+        </p>
+      </li> <hr>
+
+      
+    </ol>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
